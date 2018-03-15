@@ -6,15 +6,15 @@ Run server first, then client.
 - Client:
     ``` bash
     javac Client.java
-    java Client.class
+    java Client
     ```
 - Single thread server:
     ``` bash
     javac ServerSingle.java
-    java ServerSingle.class
+    java ServerSingle
     ```
 - Multi thread server:
     ``` bash
     javac ServerMulti.java
-    java ServerMulti.class
+    java ServerMulti
     ```
