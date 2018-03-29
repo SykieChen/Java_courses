@@ -6,7 +6,7 @@ public class Server {
         try {
             ServerUpperImpl obj=new ServerUpperImpl();
             System.out.println("ok: ");
-            Naming.rebind("rmi://localhost:1099/UpperString", obj);
+            Naming.rebind("rmi://localhost:1025/UpperString", obj);
         } catch (Exception e) {
             System.out.println("Error: " + e);
         }
